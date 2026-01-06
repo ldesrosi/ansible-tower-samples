@@ -1,4 +1,5 @@
 - name: Patching Linux Server
+  hosts: all
   tasks:
     - name: Patching
       debug:
